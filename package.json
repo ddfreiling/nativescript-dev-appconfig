@@ -1,0 +1,40 @@
+{
+  "name": "nativescript-dev-appconfig",
+  "version": "1.0.0",
+  "description": "Load and inject app configuration",
+  "nativescript": {
+    "hooks": [
+      {
+        "type": "before-prepare",
+        "script": "lib/before-prepare.js",
+        "inject": true
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ddfreiling/nativescript-dev-appconfig.git"
+  },
+  "scripts": {
+    "postinstall": "node postinstall.js",
+    "preuninstall": "node preuninstall.js"
+  },
+  "keywords": [
+    "nativescript",
+    "hooks",
+    "hook",
+    "build",
+    "config"
+  ],
+  "author": {
+    "email": "ddfreiling@gmail.com",
+    "name": "Daniel Freiling"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "nativescript-hook": "^0.2.4",
+    "plist": "^3.0.1"
+  },
+  "devDependencies": {
+  }
+}
