@@ -1,6 +1,6 @@
 {
   "name": "nativescript-dev-appconfig",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Load and inject Nativescript app configuration on CLI prepare hook",
   "nativescript": {
     "hooks": [
